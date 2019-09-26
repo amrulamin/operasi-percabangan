@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int x,y;
+    string pilihan;
+    int hasil;
+    
+    cout << "nilai x :" << endl ;
+    cin >> x;
+    cout << "nilai y :" << endl ;
+	cin >> y;
+	cout << "masukkan pilihan" << endl;
+	cin >> pilihan;
+
+	if (pilihan== "penjumlahan") {
+		hasil=x+y;
+		cout << "hasil penjumlahan :"  << hasil << endl;
+	} else if (pilihan== "perkalian") {
+		hasil=x*y;
+		cout << "hasil perkalian :"  << hasil << endl;
+	}else if (pilihan== "pengurangan") {
+		hasil=x-y;
+		cout << "hasil pengurangan :"  << hasil << endl;
+	}else if (pilihan== "pembagian") {
+		hasil=x/y;
+		cout << "hasil pembagain :"  << hasil << endl; 
+	} else {
+		cout << "Anda tidak memilih" << endl;
+	}
+    
+ 
+
+    cout << "program ini adaah program kalkulator sederhana"<< endl;
+
+	return 0;
+    
+}
